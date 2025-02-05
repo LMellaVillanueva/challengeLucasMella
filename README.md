@@ -6,13 +6,13 @@
 **2**. Crear una carpeta en el escritorio, abrir terminal git bash y ejecutar comando:
 **git clone https://github.com/LMellaVillanueva/challengeLucasMella**.
 
-**3 **.En el archivo raíz del proyecto, ejecutar **npm install** para las dependencias.
+**3**.En el archivo raíz del proyecto, ejecutar **npm install** para las dependencias.
 
 **4**. Tener en cuenta que este proyecto consume la api de: **[EmployeeAPI](http://https://github.com/GuillermoGodoy/EmployeeAPI "EmpoyeeAPI")**.
 
 **5**. El usuario a ingresar para el login (inicio de sesión) es admin-admin, es decir ***Usuario: admin, Password: admin***.
 
-**6 **. Navega y gestiona los empleados a tu gusto.
+**6**. Navega y gestiona los empleados a tu gusto.
 
 ------------
 
