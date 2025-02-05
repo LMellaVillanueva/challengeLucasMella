@@ -52,7 +52,7 @@ const Login = () => {
         <form onSubmit={handleSubmit} className='flex flex-col justify-between w-[30vw] items-center h-72 border-2 rounded-lg p-5 text-xl bg-blue-900/95'>
             <h2>Inicio de Sesión</h2>
             <div className='flex items-center justify-between w-96'>
-                <label>Nombre:</label>
+                <label>Usuario:</label>
                 <input onChange={handleChange} name='username' minLength={3} type="text" className='border rounded-2xl p-1'/>
             </div>
             <div className='flex items-center justify-between w-96'>

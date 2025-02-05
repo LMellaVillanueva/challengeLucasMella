@@ -1,50 +1,19 @@
-# React + TypeScript + Vite
+# Aplicación para Gestión de Empleados
+## Instalación
+### Pasos:
+**1**. Dar click en Code y copiar la url del proyecto.
+**2**. Crear una carpeta en el escritorio, abrir terminal git bash y ejecutar comando:
+**git clone https://github.com/LMellaVillanueva/challengeLucasMella**.
+**3 **.En el archivo raíz del proyecto, ejecutar **npm install** para las dependencias.
+**4**. Tener en cuenta que este proyecto consume la api de: **[EmployeeAPI](http://https://github.com/GuillermoGodoy/EmployeeAPI "EmpoyeeAPI")**.
+**5**. El usuario a ingresar para el login (inicio de sesión) es admin-admin, es decir ***Usuario: admin, Password: admin***.
+**6 **. Navega y gestiona los empleados a tu gusto.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+------------
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Diseño
+Implementé un diseño simple pero interactivo, tanto los botones, las cards de los empleados y el logo de la empresa (excepto en el login). La aplicación cumple con las funciones descritas (CRUD), notificadas por medio de alertas tipo pop-up, para un diseño más intuitivo y vistoso.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Casi en su totalidad utilicé TailwindCSS para el diseño de toda la aplicación, así como también preferí ocupar TypeScript con React para el tipado de objetos y mayor organización.
